@@ -1,0 +1,4 @@
+/* pages/test/test.wxss */
+.program-button {
+    background-color: #CDCDCD;
+}

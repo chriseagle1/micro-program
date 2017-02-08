@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto">
+    <!--<text class="user-motto">{{motto}}</text>-->
+    <button bindtap="addRecord" data-type="normal-course" class="program-button">普通课程</button>
+    <button bindtap="addRecord" data-type="neck-relax" class="program-button">颈肩放松</button>
+    <!--<button bindtap="addRecord" data-type="debug" class="program-button">测试</button>-->
+  </view>
+</view>

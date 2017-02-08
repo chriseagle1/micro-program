@@ -1,0 +1,5 @@
+<!--logs.wxml-->
+<view>
+    <button bindtap="addRecord" data-type="normal-course" class="program-button">普通课程</button>
+    <button bindtap="addRecord" data-type="neck-relax" class="program-button">颈肩放松</button>
+</view>

@@ -1,0 +1,11 @@
+<!--pages/course_list/index.wxml-->
+<view class="course-list">
+    <view>
+        <text class="record-tips">共消课 {{normalTotal}} 节，消课记录如下:</text>
+        <button bindtap="addRecord" class="add-record">新增</button>
+    </view>
+    <view class="clear"></view>
+    <block wx:for="{{normalList}}" wx:for-item="course" wx:key="*this">
+        <text class="course-item">{{course.num}}. {{course.date}}</text>
+    </block>
+</view>

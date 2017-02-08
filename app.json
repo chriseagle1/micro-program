@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test/test",
+    "pages/course_list/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "Demo"
+  }
+}
