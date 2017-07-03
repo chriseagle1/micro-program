@@ -8,6 +8,7 @@
     <!--<text class="user-motto">{{motto}}</text>-->
     <button bindtap="addRecord" data-type="normal-course" class="program-button">普通课程</button>
     <button bindtap="addRecord" data-type="neck-relax" class="program-button">颈肩放松</button>
+    <button bindtap="recordSwim" data-type="baby-swim" class="program-button">元宝游泳</button>
     <!--<button bindtap="addRecord" data-type="debug" class="program-button">测试</button>-->
   </view>
 </view>

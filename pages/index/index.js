@@ -19,6 +19,11 @@ Page({
       url: '../course_list/index?type=' + addType
     })
   },
+  recordSwim:function(e) {
+    wx.navigateTo({
+      url: '../swim/list'
+    })
+  },
   onLoad: function () {
     var that = this
     //调用应用实例的方法获取全局数据

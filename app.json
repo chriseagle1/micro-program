@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/test/test",
-    "pages/course_list/index"
+    "pages/course_list/index",
+    "pages/swim/list"
   ],
   "window": {
     "navigationBarTitleText": "Demo"
