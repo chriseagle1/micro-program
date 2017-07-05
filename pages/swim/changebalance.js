@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    balance:5000.00.toFixed(2)
   },
 
   /**
@@ -62,5 +62,12 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+  confirmCharge:function(e) {
+    wx.showToast({
+      title: '成功',
+      icon: 'success',
+      duration: 2000
+    });
   }
 })

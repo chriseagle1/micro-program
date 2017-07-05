@@ -1,2 +1,17 @@
 <!--changebalance.wxml-->
-<text>changebalance.wxml</text>
+<view class="wrap">
+  <view class="balance">
+    <text>还剩余额{{balance}}</text>
+  </view>
+  <view class="section">
+    <view class="recharge-title">充值金额：</view>
+    <view class="recharge">
+      <image src="/images/money.png"></image>
+      <input type="digit" placeholder="带小数点的数字键盘"/>
+    </view>
+  </view>
+  <view class="confirm-charge">
+    <button bindtap="confirmCharge">确认</button>
+  </view>
+</view>
+
