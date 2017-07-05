@@ -1,2 +1,11 @@
 <!--list.wxml-->
-<text>list.wxml</text>
+<view class="swim-wrap">
+    <view class="page-title">
+      <view class="balance-item">当前余额<text class="balance-num">{{balance}}</text>元</view>
+      <view><image src="/images/more.png" bindtap="changeBalance"></image></view>
+    </view>
+    <view class="swim-item">
+      <text>具体记录项目</text>
+      </view>
+</view>
+

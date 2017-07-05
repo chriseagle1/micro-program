@@ -1,14 +1,13 @@
-// list.js
+// changebalance.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    iconItem:'waiting',
-    iconSize:30,
-    balance:5000.00.toFixed(2)
+  
   },
+
   /**
    * 生命周期函数--监听页面加载
    */
@@ -48,11 +47,7 @@ Page({
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-    wx.showToast({
-      title: 'success',
-      icon:'success',
-      duration:2000
-    })
+  
   },
 
   /**
@@ -67,11 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-  changeBalance: function (e) {
-    console.log(1111);
-    wx.navigateTo({
-      url: 'changebalance'
-    })
-  },
+  }
 })

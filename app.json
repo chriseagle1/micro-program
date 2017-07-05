@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/test/test",
     "pages/course_list/index",
-    "pages/swim/list"
+    "pages/swim/list",
+    "pages/swim/changebalance"
   ],
   "window": {
     "navigationBarTitleText": "Demo"
