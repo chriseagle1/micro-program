@@ -17,10 +17,12 @@
 }
 
 .usermotto {
-  margin-top: 200px;
+  margin-top: 310rpx;
 }
+
 .program-button {
-    background-color: #CDCDCD;
-    width:370rpx;
+    background-color: #09BB07;
+    color: #FFFFFF;
+    width:400rpx;
     margin-top: 20rpx;
 }
