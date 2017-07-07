@@ -2,14 +2,14 @@
 <view class="swim-wrap">
     <view class="page-title">
       <view class="balance-item">当前余额<text class="balance-num">{{balance}}</text>元</view>
-      <view><image src="/images/more.png" bindtap="changeBalance"></image></view>
+      <view class="go-charge iconfont icon-mjiantou" bindtap="changeBalance"></view>
     </view>
-    <view class="swim-item">
-        <checkbox-group bindchange="checkboxChange">
-          <label class="checkbox" wx:for="{{items}}" wx:key="index">
-            <checkbox value="{{item.value}}" checked="{{item.checked}}" disabled="{{item.disabled}}"/>{{item.name}}
-          </label>
-        </checkbox-group>
+    <view class="clear"></view>
+    <view class="cost-list">
+      <view class="list-title">
+          <text>历史记录：</text>
+          <span class="iconfont icon-tianjia" bindtap="addItem"></span>
+      </view>
     </view>
 </view>
 

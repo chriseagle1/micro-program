@@ -1,0 +1,13 @@
+<!--addItem.wxml-->
+<view class="add-item-wrap">
+    <view class="swim-item">
+        <checkbox-group bindchange="checkboxChange">
+          <label class="checkbox" wx:for="{{items}}" wx:key="index">
+            <checkbox value="{{item.value}}" checked="{{item.checked}}" disabled="{{item.disabled}}"/>{{item.name}}
+          </label>
+        </checkbox-group>
+    </view>
+    <view class="confirm">
+      <button bindtap="confirm" class="record-swim">确认</button>
+    </view>
+</view>

@@ -2,11 +2,13 @@
 <view class="wrap">
   <view class="balance">
     <text>还剩余额 {{balance}}</text>
+    <span class="history-charge iconfont icon-chongdianjilu" bindtap="historyCharge"></span>
   </view>
   <view class="section">
     <view class="recharge-title">充值金额：</view>
     <view class="recharge">
-      <image src="/images/money.png"></image>
+      <!--<image src="/images/money.png"></image>-->
+      <view class="money-icon iconfont icon-demo22"></view>
       <input type="digit" focus="true"/>
     </view>
   </view>

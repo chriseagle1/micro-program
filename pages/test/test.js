@@ -43,6 +43,13 @@ Page({
       showDateSelect:true
     });
   },
+  neckRelax:function(e) {
+    wx.scanCode({
+      success:(res)=> {
+        console.log(res);
+      }
+    });
+  },
   onLoad: function () {
     
   },

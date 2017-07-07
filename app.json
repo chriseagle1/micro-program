@@ -1,12 +1,13 @@
 {
   "pages": [
-    "pages/test/test",
     "pages/index/index",
     "pages/logs/logs",
     "pages/test/test",
     "pages/course_list/index",
     "pages/swim/list",
-    "pages/swim/changebalance"
+    "pages/swim/changebalance",
+    "pages/swim/addItem",
+    "pages/swim/historyCharge"
   ],
   "window": {
     "navigationBarTitleText": "Demo"

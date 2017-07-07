@@ -69,5 +69,10 @@ Page({
       icon: 'success',
       duration: 2000
     });
+  },
+  historyCharge:function(e) {
+    wx.navigateTo({
+      url: 'historyCharge',
+    })
   }
 })

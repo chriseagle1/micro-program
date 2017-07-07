@@ -1,0 +1,18 @@
+/* addItem.wxss */
+.swim-item{
+  /*margin-top:15px;*/
+  font-size:15px;
+  padding:0 10px;
+}
+.checkbox{
+  margin: 15px 0 0 10px;
+  display: block;
+}
+.checkbox checkbox{
+  margin-right: 5px; 
+}
+.record-swim{
+  background-color: #09BB07;
+  color: #FFFFFF;
+  margin: 20px 10px 0 10px;
+}
