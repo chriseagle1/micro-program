@@ -5,7 +5,11 @@
       <view><image src="/images/more.png" bindtap="changeBalance"></image></view>
     </view>
     <view class="swim-item">
-      <text>具体记录项目</text>
-      </view>
+        <checkbox-group bindchange="checkboxChange">
+          <label class="checkbox" wx:for="{{items}}" wx:key="index">
+            <checkbox value="{{item.value}}" checked="{{item.checked}}" disabled="{{item.disabled}}"/>{{item.name}}
+          </label>
+        </checkbox-group>
+    </view>
 </view>
 

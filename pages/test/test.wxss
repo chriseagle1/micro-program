@@ -23,3 +23,33 @@
 .icon-mjiantou:before { content: "\e61e"; }
 
 .icon-jiage-copy:before { content: "\e613"; }
+
+.layer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 20;
+  background-color: #000;
+  opacity: .3;
+}
+.date-select {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 40;
+  background-color: #FFFFFF;
+  /*padding-left: 20px;*/
+}
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+}
+
+.date-select picker-view picker-view-column {
+  text-align: center;
+}

@@ -12,6 +12,11 @@
 }
 .balance-item{
   float: left;
+  font-size:14px;
+}
+.balance-item text {
+  padding:0 5px;
+  font-size:22px;
 }
 .balance-num{
   font-style: italic;
@@ -26,6 +31,14 @@
   margin-right:6px;
 }
 .swim-item{
-  margin-top: 20px;
-  background-color: #4169E1;
+  /*margin-top:15px;*/
+  font-size:15px;
+  padding:0 10px;
+}
+.checkbox{
+  margin: 15px 0 0 10px;
+  display: block;
+}
+.checkbox checkbox{
+  margin-right: 5px; 
 }

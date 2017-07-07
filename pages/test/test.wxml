@@ -2,7 +2,22 @@
 <view>
     <span class="iconfont icon-jiage-copy"></span>
     <text>sssssssss</text>
-    <!--button bindtap="addRecord" data-type="normal-course" class="program-button">普通课程</button>
-    <button bindtap="addRecord" data-type="neck-relax" class="program-button">颈肩放松</button-->
-    <!--button bindtap="record-swim" data-type="baby-swim" class="program-button">元宝游泳</button-->
+    <button bindtap="addRecord" data-type="normal-course" class="program-button">普通课程</button>
+    <button bindtap="addRecord" data-type="neck-relax" class="program-button">颈肩放松</button>
+    <button bindtap="recordSwim" data-type="baby-swim" class="program-button">元宝游泳</button>
+    
+    <view class='layer {{showDateSelect ? "show": "hide"}}'></view>
+    <view class='date-select {{showDateSelect ? "show": "hide"}}'>
+      <picker-view indicator-style="height: 50px;" style="width: 100%; height: 300px;" value="{{value}}" bindchange="bindChange">
+        <picker-view-column>
+          <view wx:for="{{years}}" style="line-height: 50px">{{item}}年</view>
+        </picker-view-column>
+        <picker-view-column>
+          <view wx:for="{{months}}" style="line-height: 50px">{{item}}月</view>
+        </picker-view-column>
+        <picker-view-column>
+          <view wx:for="{{days}}" style="line-height: 50px">{{item}}日</view>
+        </picker-view-column>
+      </picker-view>
+    </view>
 </view>
