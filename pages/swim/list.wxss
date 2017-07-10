@@ -3,6 +3,12 @@
   width: 100%;
   height: 100%
 }
+.border-1px {
+    border-width: 0;
+    border-style: solid;
+    -webkit-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAxMS8yMC8xNWexeuQAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzbovLKMAAAALklEQVQImWN8+vTpfwYsgIWBgYFBSkqKEVnw2bNn/5mwqWZgYGAgXYIFZia6BAAHMQtvWmlyJAAAAABJRU5ErkJggg==) 2 2 stretch
+}
+
 .page-title{
   padding: 0 10px;
   height: 50px;
@@ -67,4 +73,27 @@
   float:right;
   font-size:30px;
   color:#D3D3D3;
+}
+
+.cost-item{
+  font-size: 15px;
+  float: left;
+}
+.amount {
+  float: right;
+  font-weight: bold;
+  font-size: 17px;
+}
+.first-item{
+  height: 19px;
+  line-height: 19px;
+}
+.list-item{
+  padding: 10px;
+  border-bottom-width: 1px;
+}
+.second-item {
+  color: #CDCDCD;
+  font-size: 14px;
+  margin-top:3px;
 }

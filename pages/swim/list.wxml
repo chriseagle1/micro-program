@@ -1,14 +1,35 @@
 <!--list.wxml-->
+<!--
+  index: int
+  msg: string
+  time: string
+-->
+<template name="swimRecord">
+  <view class="list-item border-1px">
+    <view class="first-item">
+      <view class="cost-item">{{costItem}}</view>
+      <view class="amount">-{{cost}}</view>
+    </view>
+    <view class="clear"></view>
+    <view class="second-item">{{costTime}}</view>
+  </view>
+  
+  
+</template>
+
 <view class="swim-wrap">
-    <view class="page-title">
+    <view class="page-title border-1px">
       <view class="balance-item">当前余额<text class="balance-num">{{balance}}</text>元</view>
       <view class="go-charge iconfont icon-mjiantou" bindtap="changeBalance"></view>
     </view>
     <view class="clear"></view>
     <view class="cost-list">
-      <view class="list-title">
+      <view class="list-title border-1px">
           <text>历史记录：</text>
           <span class="iconfont icon-tianjia" bindtap="addItem"></span>
+      </view>
+      <view class="record-list" wx:for="{{list}}" wx:key="loopKey">
+          <template is="swimRecord" data="{{...item}}"></template>
       </view>
     </view>
 </view>

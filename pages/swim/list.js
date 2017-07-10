@@ -8,6 +8,33 @@ Page({
     iconItem:'waiting',
     iconSize:30,
     balance:5000.00.toFixed(2),
+    list:[
+      {
+        costItem: '游泳、洗澡、抚触',
+        cost: 95.00.toFixed(2),
+        costTime: '7月9日 17:30'
+      },
+      {
+        costItem: '游泳、抚触',
+        cost: 70.00.toFixed(2),
+        costTime: '7月6日 21:00'
+      },
+      {
+        costItem: '游泳、抚触',
+        cost: 70.00.toFixed(2),
+        costTime: '7月3日 11:00'
+      },
+      {
+        costItem: '游泳、洗澡、抚触',
+        cost: 85.00.toFixed(2),
+        costTime: '6月27日 15:30'
+      },
+      {
+        costItem: '游泳、抚触',
+        cost: 1.00.toFixed(2),
+        costTime: '6月24日 10:30'
+      }
+    ]
   },
   /**
    * 生命周期函数--监听页面加载
